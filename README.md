@@ -4,7 +4,8 @@ Github repo for the W207 final project
 
 ## Project Structure
 
-* `data` contains the train, test and submission data
+* `zip_data` contains the zipped data since it's too large to push to Github
+* `data` is where the data should be unzipped too. The .gitignore file should cause git to ignore thes files 
 * `models` contains the models used for evaluating and predicting the data
 ..* `final_project.ipynb` is the master jupyter notebook for submission
 ..* All other personal exploration notebooks must be named withe user's name for reference
